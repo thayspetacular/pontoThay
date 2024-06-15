@@ -64,6 +64,51 @@
     background-color: #111;
 }
 
+
+
+
+
+/* CSS para o formulário de login adm */
+#adminLoginForm{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adminLoginForm h1 {
+    text-align: center;
+}
+
+#adminLoginFormlabel {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#adminLoginForm input[type="text"],
+#adminLoginForm input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adminLoginForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#adminLoginForm button[type="submit"]:hover {
+    background-color: #111;
+}
+
 /* Media Queries */
 @media (max-width: 600px) {
     body {

@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: #111;
+    background-color: #ffffff;
 }
 
 h1{
@@ -91,7 +91,7 @@ ul#listaFuncionarios {
 }
 
 /* Estilo para cada item da lista de funcionários */
-ulistaFuncio#lnarios li {
+ul#listaFuncionarios li {
     width: calc(33.33% - 20px); /* Definindo a largura de cada funcionário para 33.33% com margem */
     margin: 10px; /* Espaçamento entre os funcionários */
     background-color: #f2f2f2; /* Cor de fundo cinza */
@@ -99,35 +99,6 @@ ulistaFuncio#lnarios li {
     border-radius: 8px; /* Borda arredondada */
     text-align: center; /* Centralizar conteúdo */
 }
-
-
-ul#listaPontos {
-    margin: 20px 0; /* Margem superior e inferior */
-    padding: 0; /* Removendo qualquer preenchimento padrão */
-    list-style-type: none; /* Removendo os marcadores de lista padrão */
-    display: flex;
-    flex-wrap: wrap; /* Para que os funcionários possam quebrar a linha conforme necessário */
-    justify-content: space-around; /* Para espaçamento uniforme entre os funcionários */
-}
-
-/* Estilo para cada item da lista de funcionários */
-ul#listaPontos li {
-    width: calc(33.33% - 20px); /* Definindo a largura de cada funcionário para 33.33% com margem */
-    margin: 10px; /* Espaçamento entre os funcionários */
-    background-color: #f2f2f2; /* Cor de fundo cinza */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 8px; /* Borda arredondada */
-    text-align: center; /* Centralizar conteúdo */
-}
-
-
-
-
-
-
-
-
-
 
 /* Media Queries */
 @media (max-width: 600px) {
